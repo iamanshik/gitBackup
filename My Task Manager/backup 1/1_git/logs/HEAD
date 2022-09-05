@@ -1,4 +1,6 @@
 0000000000000000000000000000000000000000 8481c68654d556fe4d7764496594475e255c08fd anshiq <anshikthind@gmail.com> 1662271975 +0530	commit (initial): fixed
 8481c68654d556fe4d7764496594475e255c08fd 8b9a5588ead4dd1b7cf6818f02044a0bc86ecbfc anshiq <anshikthind@gmail.com> 1662296569 +0530	commit: now working everything i guess
 8b9a5588ead4dd1b7cf6818f02044a0bc86ecbfc 4df767b7e748ce41744ec227ab41829221272fb0 anshiq <anshikthind@gmail.com> 1662296756 +0530	commit: now working everything i guess
-4df767b7e748ce41744ec227ab41829221272fb0 4df767b7e748ce41744ec227ab41829221272fb0 anshiq <anshikthind@gmail.com> 1662296778 +0530	reset: moving to HEAD
+4df767b7e748ce41744ec227ab41829221272fb0 4df767b7e748ce41744ec227ab41829221272fb0 anshiq <anshikthind@gmail.com> 1662305052 +0530	reset: moving to HEAD
+4df767b7e748ce41744ec227ab41829221272fb0 f7e55f04703f3e897a9ad25b0e534337ae27a7c7 anshiq <anshikthind@gmail.com> 1662309481 +0530	commit: getallelement and createelemen are working with database
+f7e55f04703f3e897a9ad25b0e534337ae27a7c7 972c8ef3d7c7e0417c23529f78b367671255063c anshiq <anshikthind@gmail.com> 1662347013 +0530	commit: getallelement and createelement are working with database
