@@ -1,0 +1,31 @@
+.LoginContainer{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.LoginBox{
+    margin-top: 7rem;
+    border: 1px solid rgb(214, 214, 214);
+    width: 27rem;
+    height: 29rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.LoginBox h1{
+    font-size: 2.3rem;
+}
+.LoginBox input{
+    margin-bottom: 1rem;
+    height: 1.3rem;
+    width: 15rem;
+    background-color: rgb(241, 241, 241);
+    border-radius: 6px;
+}
+.LoginBox button {
+    width: 6rem;
+    padding: .4rem;
+    font-size: 1rem;
+    cursor: pointer;
+}

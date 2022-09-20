@@ -1,0 +1,116 @@
+.container {
+  /* border: 3px solid blue; */
+
+  display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(24rem,1fr));
+    justify-content: center;
+    align-items: center;
+}
+.box {
+  display: flex;
+  width: 24rem;
+  padding: 0.4rem;
+  height: 20rem;
+  margin: 1rem;
+  background-color: rgb(177, 177, 177);
+  /* border: 2px solid red; */
+  flex-direction: column;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.box img{
+  height: 100%;
+}
+.box .img{
+  /* border:  2px solid green; */
+}
+.box .img,.box img {
+  width: 24rem;
+  
+}
+.box .img {
+  height: 13.45rem;
+  min-height: 13.45rem;
+}
+
+.box h2 {
+  margin-top: 0.2rem;
+  font-size: 1.2rem;
+}
+.box h3 {
+  text-align: center;
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 54rem) {
+    .container{
+        grid-template-columns: repeat(auto-fit,minmax(23rem,1fr));
+    }
+    .box,.box .img{
+        width: 23rem;
+
+    }
+    .box img{
+      width: 23rem;
+    }
+    .box{
+        height: 18rem;
+  
+    }
+    .box .img{
+ 
+      height: 12.89rem;
+      background-color: rgb(53, 53, 53);
+    }
+}
+@media screen and (max-width:48rem){
+    .container{
+        grid-template-columns: repeat(2,minmax(20rem,1fr));
+    }
+    .box,.box .img,.box img{
+        width: 20rem;
+        
+    }
+    .box .img{
+      height: 11.2rem;
+    }
+    .box{
+        height: 15rem;
+        padding: 0rem;
+    }
+    .box h2 {
+        margin-top: 0.2rem;
+        font-size: 1rem;
+      }
+      .box h3 {
+        text-align: center;
+        margin-top: 0.3rem;
+        font-size: 0.8rem;
+      }
+    
+}
+@media screen and (max-width:37rem) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box,.box .img,.box img{
+      width: 23rem;
+  }
+  .box .img{
+    height: 12.89rem;
+  }
+  .box{
+    height: 18rem;
+   
+}
+    .box h2 {
+        margin-top: 0.2rem;
+        font-size: .9rem;
+      }
+      .box h3 {
+        text-align: center;
+        margin-top: 0.3rem;
+        font-size: 0.7rem;
+      }
+}
