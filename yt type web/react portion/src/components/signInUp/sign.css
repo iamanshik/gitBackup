@@ -3,7 +3,7 @@
  align-items: center;
  justify-content: center;
 }
-.LoginBox{
+.LoginBox form{
     margin-top: 7rem;
     border: 1px solid rgb(214, 214, 214);
     width: 27rem;

@@ -25,6 +25,21 @@ const TaskSchema = new mongoose.Schema({
         type: Date
     }
   })
-
+  const LoginSchema = new mongoose.Schema({
+    email: {
+        type: String,
+        required: [true, 'must provide title of Video'],
+        trim: true
+        
+    },
+    password:{
+        type: String,
+        required: [true, 'must provide title of Video'],
+        trim: true,
+        minlength: [8, 'password can not be less than 8 characters'],
+    }
+  })
+const TaskSchemas = mongoose.model('videoDetails',TaskSchema)
+const LoginSchemas = mongoose.model('loginDetails',LoginSchema)
 // tasks will the collection in the database having above schema 
-module.exports = mongoose.model('videoDetails',TaskSchema)
+module.exports = {TaskSchemas,LoginSchemas}
